@@ -10,6 +10,6 @@ public class ThreeDPoint extends Point {
         return super.equals(o) && z == ((ThreeDPoint) o).z;
     }
     public String toString() {
-        return super.toString();
+        return super.toString() + ", z = " + z;
     }
 }
